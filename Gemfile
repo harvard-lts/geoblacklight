@@ -8,6 +8,8 @@ group :development, :test do
   gem "thor", ">= 0.19.0"
 end
 
+gem 'geoblacklight_sidecar_images', :git => 'https://github.com/dl-maura/geoblacklight_sidecar_images.git', :branch => 'develop'
+
 # BEGIN ENGINE_CART BLOCK
 # engine_cart: 0.10.0
 # engine_cart stanza: 0.10.0
